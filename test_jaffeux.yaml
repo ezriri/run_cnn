@@ -1,0 +1,10 @@
+name: zeub_test
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy=1.18.5
+  - pandas
+  - pip:
+    - tensorflow==2.3.0
